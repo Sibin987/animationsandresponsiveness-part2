@@ -1,0 +1,70 @@
+.container{
+    height: 215px;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: bada-karna;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    /* animation-fill-mode: ; */
+
+}
+
+/* keyframes is used to define starting and ending state of an animation */
+ /*
+@keyframes bada-karna{
+    /* start state */
+    /* from{
+        width: 212px;
+    }
+
+    /* end state */
+    /* to{
+        width: 800px;
+    } */ 
+
+/* } /* */
+
+@keyframes bada-karna {
+    0%{
+        width: 212px;
+        background-color: white;
+    }
+
+    /* 20%{
+        width: 20%;
+        background-color: aqua;
+    }
+
+    40%{
+        width: 40%;
+        background-color: blue;
+    }
+
+    60%{
+        width: 60%;
+        background-color: orange;
+    }
+
+    80%{
+        width: 80%;
+        background-color: red;
+    } */
+
+    100%{
+        width: 100%;
+        background-color: yellow;
+    }
+
+
+}

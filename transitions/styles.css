@@ -1,0 +1,58 @@
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid #ff0000;
+    
+}
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    
+    border: 2px solid orange;
+    background-color: aqua;
+
+
+    /* transition-property: background-color;
+    /* not to write all in transition-property as it affect performance 
+
+    transition-delay: 10s; */
+
+    /* transition-duration: 0.7s; */
+
+    /* transition: transform 10s ease 2s; */
+
+    transition: transform 3s cubic-bezier(0.26, 0.93, 0.86, 0.06);
+    /* can create own function using inspect element*/
+    
+    /* long notation for statement on line 26 */
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.26, 0.93, 0.86, 0.06);
+    transition-delay: 1s;
+
+   
+}
+
+.box:hover{
+    background-color: brown;
+    /* transform: rotate(45deg); */
+    /* transition: 0.9s; */
+    /* transition-delay: 0.9s; */
+
+    transform: translate3d(300px) ;
+
+    
+}

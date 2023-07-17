@@ -1,0 +1,9 @@
+is declaring variables in universal selector is same as global variables??
+
+ans -> 1
+
+:root is a pseudo selector that is equivalent to html 99% of the time, but with higher specificity (specificity equal to html + class).
+
+:root selects the root element of the document based on it's format. It exists as CSS can be used in other document formats (SVG, XML).
+
+* would apply the css to every element on the page. This is usually reserved for normalisation, fonts etc.
